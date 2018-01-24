@@ -1,0 +1,17 @@
+{
+    "name": "optimistdigital/laravel-create-frontend",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Tatter",
+            "email": "allan.tatter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {}
+}
