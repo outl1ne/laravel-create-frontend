@@ -16,3 +16,13 @@ It grabs the right path for the versioned files from asset-manifest.json
 #### 3. For production, also include css:
 
 `<link rel="stylesheet" type="text/css" href={{ frontend('app.css') }}>`
+
+## API
+
+```
+/**
+ * $assetName - name of the unhashed asset in your manifest
+ * $manifestPath - location of your manifest - optional, defaults to public/build/asset-manifest.json
+ */
+frontend($assetName, $manifestPath)
+```

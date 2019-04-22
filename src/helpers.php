@@ -10,7 +10,7 @@ if (! function_exists('frontend')) {
      *
      * @throws \Exception
      */
-    function frontend($path, $manifestPath = 'asset-manifest.json')
+    function frontend($path, $manifestPath = 'public/build/asset-manifest.json')
     {
         static $manifests = [];
 
